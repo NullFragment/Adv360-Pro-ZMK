@@ -81,8 +81,8 @@
 &trans     &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans    &trans
 &trans     &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans    &trans
 &trans     &kp A   &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp J   &kp K   &kp L   &kp SEMI  &trans
-&kp LCTRL  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans    &trans
-&trans     &trans  &trans  &trans  &trans          &none   &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
+&trans     &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans    &trans
+&kp LCTRL  &trans  &trans  &trans  &trans          &none   &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
             >;
         };
 
@@ -90,9 +90,9 @@
             bindings = <
 &kp ESC  &trans      &trans  &trans  &trans    &trans  &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &none    &kp G       &kp Q   &kp W   &kp E     &kp R   &kp T                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&none    &kp TAB     &kp A   &kp S   &kp D     &kp F   &kp B                     &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&none    &kp LSHIFT  &kp Z   &kp X   &kp C     &kp V                                     &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &kp LCTRL   &none   &none   &kp LALT          &hm LEFT_SHIFT BACKSPACE  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&none    &kp LSHIFT  &kp A   &kp S   &kp D     &kp F   &kp B                     &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none    &kp LCTRL   &kp Z   &kp X   &kp C     &kp V                                     &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp TAB     &none   &none   &kp LALT          &hm LEFT_SHIFT BACKSPACE  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
