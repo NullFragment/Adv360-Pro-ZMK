@@ -106,7 +106,7 @@
             bindings = <
 &trans  &trans    &trans  &trans    &trans      &trans       &none                                       &none   &trans     &trans    &trans     &trans                &trans                 &trans
 &trans  &kp F1    &kp F2  &kp F3    &kp F4      &kp F5       &none                                       &none   &kp F6     &kp F7    &kp F8     &kp F9                &kp F10                &kp F11
-&trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5       &none   &trans  &trans      &trans  &trans  &none   &kp N6     &kp N7    &kp N8     &kp N9                &kp N0                 &kp F12
+&trans  &hm LGUI N1  &hm LALT N2    &hm LCTRL N3    &hm LSHFT N4      &kp N5       &none   &trans  &trans      &trans  &trans  &none   &kp N6     &hm RSHIFT N7  &hm RCTRL N8  &hm RALT N9  &hm RGUI N0                 &kp F12
 &trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                  &trans      &trans                  &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &trans    &trans  &trans    &trans                   &trans  &trans  &trans      &trans  &trans  &trans             &trans    &trans     &trans                &trans                 &trans
             >;
