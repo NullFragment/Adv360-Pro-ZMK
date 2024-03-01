@@ -32,18 +32,6 @@
             quick-tap-ms = <175>;
         };
 
-        jb_search: jb_search {
-            compatible = "zmk,behavior-hold-tap";
-            label = "JB_SEARCH";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&shft_doubletap>, <&kp>;
-
-            quick-tap-ms = <175>;
-        };
-
         mt_layer: mt_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_LAYER";
@@ -54,15 +42,6 @@
             bindings = <&mo>, <&kp>;
 
             quick-tap-ms = <175>;
-        };
-    };
-
-    macros {
-        dcvcc: jb_search {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp LSHFT>;
-            label = "JB_SEARCH";
         };
     };
 
